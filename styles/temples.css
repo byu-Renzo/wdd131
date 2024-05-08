@@ -14,7 +14,7 @@ body {
 /* ##### HEADER ##### */
 /* ################## */
 header {
-  background-color: #7371ff;
+  background-color: #504dff;
   padding: 1rem;
 }
 
@@ -121,7 +121,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #7371ff;
+  background-color: #504dff;
   color: white;
   font-family: "Roboto", sans-serif;
 }
