@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Assignment for week 03 of the wdd131 course focused on creating a responsive Country Page">
+  <meta name="author" content="Renzo Rios Rugel">
+  <title>WDD 131 - Country Page - Renzo Rios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Lima - Perú</h1>
+  </header>
+
+  <main>
+    <picture>
+      <source media="(min-width: 640px)" srcset="images/desktop-lima.webp">
+      <img class="hero-image" src="images/mobile-lima.webp" alt="Costa Verde On Lima" width="100%">
+    </picture>
+
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li><strong>Area:</strong> 2,672 sq mi</li>
+        <li><strong>Population:</strong> 268,352</li>
+        <li><strong>Capital:</strong> Lima </li>
+        <li><strong>Languages:</strong> Spanish </li>
+        <li><strong>Currency:</strong> Soles </li>
+        <li><strong>Time Zone:</strong> GMT-5 </li>
+        <li><strong>Calling Code:</strong> +51 </li>
+        <li><strong>Internet TLD:</strong> .pe </li>
+      </ul>
+    </section>
+
+
+    <section class="weather">
+      <h2>Weather</h2>
+
+      <div class="weather-icon">
+        <img src="images/weather-icon.svg" alt="Weather icon" width="100" height="100">
+      </div>
+
+      <ul>
+        <li id="temperature"></li>
+        <li id="conditions"> <strong>Conditions:</strong> Partly Cloudy</li>
+        <li id="wind"></li>
+        <li id="windchill"></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> 🚀 Renzo Rios Rugel 🚀 Perú</p>
+    <p class="lastModified">Las modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+
+</html>
