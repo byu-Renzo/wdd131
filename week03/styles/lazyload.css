@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #7371ff;
+  --secondary-color: #333333;
+  --accent-color: #fff700;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Lugrasimo", cursive;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+/* ################## */
+/* ##### HEADER ##### */
+/* ################## */
+header {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--font-secondary);
+}
+
+
+/* ################ */
+/* ##### MAIN ##### */
+/* ################ */
+main {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  background-color: #333333;
+  animation: fade 15s;
+  display: block;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ################### */
+/* ##### FOOTER ##### */
+/* ################## */
+footer {
+  padding: 1rem 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+footer .lastModified {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
