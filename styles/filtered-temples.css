@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0 auto;
+}
+
+/* ################### */
+/* ##### HEADER ##### */
+/* ################## */
+header {
+  background-color: #504dff;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  margin: 1rem;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: transparent;
+  color: white;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: white;
+}
+
+.navigation a {
+  display: none;
+  padding: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+  color: #ecf007c8;
+}
+
+.active {
+  color: #ecf007c8;
+}
+
+
+.open a {
+  display: block;
+}
+
+/* ################ */
+/* ##### MAIN ##### */
+/* ############### */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.temples_list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  margin: 24px 0px;
+
+}
+
+.temple_card {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #6f6f6f;
+  box-shadow: 0 2px 5px #d8d8d8;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.temple_card h3 {
+  margin: 8px 0px;
+  padding: 0.5rem;
+}
+
+.temple_card .label {
+  color: #504dff;
+  font-weight: 400;
+}
+
+.temple_card img {
+  margin-top: 12px;
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+
+/* ################### */
+/* ##### FOOTER ##### */
+/* ################## */
+footer {
+  padding: 1rem 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #504dff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+footer .lastModified {
+  font-size: 0.9rem;
+  color: #fff700;
+}
