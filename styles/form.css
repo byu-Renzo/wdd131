@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0 auto;
+}
+
+
+/* ################### */
+/* ##### HEADER ##### */
+/* ################## */
+header {
+  background-color: #504dff;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.0rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+
+
+/* ################### */
+/* ##### MAIN ##### */
+/* ################## */
+form {
+  background-color: #c6c5ff;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.label-title {
+  margin-top: 18px;
+}
+
+/* Producto Name */
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 12px;
+  border: 1px solid #504dff;
+}
+
+.required {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.optional {
+  color: #0400ff;
+  font-weight: bold;
+}
+
+/* Overall Rating */
+.stars {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Date of Installation */
+.date {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 12px;
+  border: 1px solid #504dff;
+}
+
+/* Written Review */
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Your Name */
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 12px;
+  border: 1px solid #504dff;
+}
+
+/* Submit */
+.submit {
+  width: 100%;
+  background-color: #504dff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #3f3dff;
+}
+
+/* ################### */
+/* ##### FOOTER ##### */
+/* ################## */
+footer {
+  padding: 1rem 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #504dff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+footer .lastModified {
+  font-size: 0.9rem;
+  color: #fff700;
+}
