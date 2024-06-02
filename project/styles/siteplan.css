@@ -38,6 +38,11 @@ h1 {
   margin: 1rem 0;
 }
 
+.name {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 img {
   width: 100%;
 }
