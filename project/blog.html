@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Learning | Home</title>
+  <meta name="author" content="Renzo Rios Rugel">
+  <meta name="description"
+    content="Welcome to Smart Learning: Navigate your BYU-Idaho journey with wisdom and faith. We provide guidance, motivation, and inspiration on your educational path.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/base-large.css">
+  <link rel="stylesheet" href="styles/blog.css">
+  <link rel="stylesheet" href="styles/blog-large.css">
+
+  <script src="scripts/generals.js" defer></script>
+  <script src="scripts/base.js" defer></script>
+</head>
+
+<body>
+
+  <div class="content">
+    <header>
+      <a class="logo_link" href="index.html">
+        <img class="logo" src="images/smart-learning-logo.svg" alt="Smart Learning Logo">
+      </a>
+      <button id="menu" aria-label="navigation menu"></button>
+      <nav class="navigation">
+        <a href="courses.html">Courses</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <div class="form">
+          <form>
+            <input type="text" placeholder="Search by title">
+            <button type="submit" class="search-button">Search</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="articles-section">
+        <article class="article-card">
+          <img src="images/article-01.webp" width="auto" height="185" alt="Article 1" loading="lazy">
+          <div class="content">
+            <div class="meta-information">
+              <div class="tags">
+                <p># Beginner</p>
+              </div>
+              <p>3rd March 2023</p>
+            </div>
+            <h3 class="styled-title">How to plan your degree your first semester</h3>
+            <p>Embark on a journey with me as I share insights into planning my courses using the degree planner and
+              valuable advice passed down from my mentor. Navigating your first semester can be challenging. </p>
+            <div class="actions">
+              <a href="#" class="more-button">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="images/article-02.webp" width="auto" height="185" alt="Article 2" loading="lazy">
+          <div class="content">
+            <div class="meta-information">
+              <div class="tags">
+                <p>#Productivity</p>
+              </div>
+              <p>3rd March 2023</p>
+            </div>
+            <h3 class="styled-title">Our mentor is our best ally</h3>
+            <p>Meet the unsung hero of our educational journey – our mentor. In the pursuit of knowledge, they stand as
+              our steadfast ally, offering guidance, wisdom, and unwavering support. </p>
+            <div class="actions">
+              <a href="#" class="more-button">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="images/article-03.webp" width="auto" height="185" alt="Article 3" loading="lazy">
+          <div class="content">
+            <div class="meta-information">
+              <div class="tags">
+                <p>#Course</p>
+                <p>#Explain</p>
+              </div>
+              <p>3rd March 2023</p>
+            </div>
+            <h3 class="styled-title">Course: Web Fundamentals</h3>
+            <p>Build a solid foundation in HTML, CSS, and Javascript – the essential trio empowering you to create your
+              very first web page with ease and speed.</p>
+            <div class="actions">
+              <a href="#" class="more-button">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <img src="images/article-04.webp" width="auto" height="185" alt="Article 4" loading="lazy">
+          <div class="content">
+            <div class="meta-information">
+              <div class="tags">
+                <p>#Tips</p>
+                <p>#Meetings</p>
+              </div>
+              <p>3rd March 2023</p>
+            </div>
+            <h3 class="styled-title">Top tips for weekly meetings</h3>
+            <p>Unlock the potential of your weekly meetings with these top-tier tips! Learn how to enhance productivity,
+              foster collaboration, and make each gathering purposeful.
+            </p>
+            <div class="actions">
+              <a href="#" class="more-button">Read More</a>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+      <section class="subscribe-section">
+        <div class="subscribe-content">
+          <h3 class="styled-title">Receive weekly <br> updates</h3>
+          <p>Subscribe now to receive a weekly dose of tutorials, valuable resources, and the latest updates on your
+            journey
+            to earn your degree at BYU-Idaho.</p>
+          <form method="get" action="subscribe.html">
+            <label for="name">Name<span class="required">*</span></label>
+            <input type="name" id="name" name="name" placeholder="Enter your Name" required>
+
+            <label for="email">Email<span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <input type="submit" value="Subscribe" class="submit-button">
+          </form>
+        </div>
+        <img src="images/student.webp" alt="Subscribe" loading="lazy">
+      </section>
+    </main>
+  </div>
+
+
+  <footer>
+    <div class="content">
+      <div class="content-up">
+        <a class="logo_link" href="index.html">
+          <img class="logo" src="images/smart-learning-logo-white.svg" alt="Smart Learning Logo">
+        </a>
+        <nav>
+          <a href="courses.html">Courses</a>
+          <a href="blog.html">Blog</a>
+          <a href="site-plan.html">Site Plan</a>
+        </nav>
+      </div>
+      <div class="content-down">
+        <div class="terms">
+          <a href="terms-conditions.html">Terms & Conditions</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Smart Learning</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

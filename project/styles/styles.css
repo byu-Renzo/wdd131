@@ -1,0 +1,189 @@
+/* ############## */
+/* #### HERO #### */
+/* ############## */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.hero-section .hero-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course-button {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  padding: 12px 28px;
+  color: black;
+}
+
+.tips-button {
+  border-radius: 5px;
+  padding: 12px 28px;
+  border: 1px solid #000;
+  background-color: var(--primary-color);
+  color: black;
+}
+
+.course-button:hover,
+.tips-button:hover {
+  opacity: 0.8;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  margin: 80px 0px 40px 0px;
+}
+
+.hero-section .institutions {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 40px;
+}
+
+.hero-section .institutions img {
+  max-width: 200px;
+}
+
+/* ################ */
+/* #### BANNER #### */
+/* ################ */
+.banner-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.banner-section h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.banner-section p {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* ################## */
+/* #### COURSES #### */
+/* ################# */
+.courses-section {
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.courses-section h3 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.courses-section .courses {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+
+.all-course-button {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  padding: 12px 48px;
+  color: black;
+}
+
+.all-course-button:hover {
+  opacity: 0.8;
+}
+
+/* #################### */
+/* #### MOTIVATION #### */
+/* #################### */
+.motivation-section {
+  margin-bottom: 160px;
+}
+
+.motivation-card {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  border: var(--accent-color) 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(143, 143, 143, 0.2)
+}
+
+.motivation-card .message {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+
+}
+
+.motivation-card .message p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.message .author h5 {
+  font-weight: 200;
+}
+
+/* ################# */
+/* #### OPINION #### */
+/* ################# */
+.opinions-section {
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.opinions-section h3 {
+  font-size: 30px;
+  margin-bottom: 120px;
+}
+
+.opinions-section .opinions {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.opinion-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border: var(--accent-color) 1px solid;
+  transition: 0.3s;
+  text-align: center;
+  padding: 60px 20px 20px 20px
+}
+
+.opinion-card img {
+  width: 80px;
+  position: absolute;
+  top: -50px;
+}

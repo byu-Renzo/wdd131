@@ -1,0 +1,45 @@
+@media screen and (min-width: 640px) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation a {
+    display: block;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  /* ####################### */
+  /* #### SUBSCRIPTION #### */
+  /* ###################### */
+  .subscribe-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .subscribe-content p {
+    font-size: 24px;
+  }
+
+  .subscribe-section img {
+    width: auto;
+  }
+
+  /* ################ */
+  /* #### FOOTER #### */
+  /* ################ */
+  footer .content-up {
+    flex-direction: row;
+  }
+
+}

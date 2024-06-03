@@ -1,0 +1,126 @@
+/* ################## */
+/* ###### MAIN ###### */
+/* ################## */
+main {
+  padding-top: 80px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.hero-section img {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-weight: 500;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-section {
+  margin-bottom: 80px;
+}
+
+.search-section h3 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.search-form form {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.search-form form button {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 6px 28px;
+  color: black;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+.search-form form input {
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: var(--accent-color) 1px solid;
+  font-size: 18px;
+  width: 100%;
+  color: #000;
+}
+
+.search-form select {
+  padding: 6px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(143, 143, 143, 0.2);
+  border: var(--accent-color) 1px solid;
+  font-size: 18px;
+  background-color: #000;
+}
+
+.courses-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.filters {
+  width: 16em;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filter-item .options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options .option-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.courses_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex: 1;
+}

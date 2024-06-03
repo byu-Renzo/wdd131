@@ -1,0 +1,73 @@
+@media screen and (min-width: 640px) {
+
+  .hero-section {
+    margin: 120px 0px;
+  }
+
+  .hero-section .hero-title {
+    font-size: 60px;
+  }
+
+  .hero-section p {
+    font-size: 24px;
+  }
+
+  .hero-section .institutions {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* ################ */
+  /* #### BANNER #### */
+  /* ################ */
+  .banner-section h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .banner-section p {
+    font-size: 24px;
+  }
+
+  /* ################## */
+  /* #### COURSES #### */
+  /* ################# */
+  .courses-section .courses {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .course-card {
+    width: 500px;
+  }
+
+  /* #################### */
+  /* #### MOTIVATION #### */
+  /* #################### */
+  .motivation-card {
+    flex-direction: row;
+  }
+
+  .motivation-card .message {
+    padding: 40px 100px;
+    justify-content: space-between;
+  }
+
+  .motivation-card .message p {
+    margin-bottom: 0px;
+  }
+
+  .motivation-card .message p {
+    font-size: 32px;
+  }
+
+  /* ################# */
+  /* #### OPINION #### */
+  /* ################# */
+  .opinions-section .opinions {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+
+}
